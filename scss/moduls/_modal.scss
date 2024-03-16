@@ -22,6 +22,10 @@
     min-height: 584px;
     height: fit-content;
     position: relative;
+
+    &--tmpl-2 {
+      min-height: 384px;
+    }
   }
 
   &__btn-close {
@@ -60,6 +64,10 @@
   .modal {
     &__content {
       min-height: 530px;
+
+      &--tmpl-2 {
+        min-height: 384px;
+      }
     }
   }
 }

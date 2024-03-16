@@ -9,6 +9,10 @@
   text-align: center;
   min-height: 530px;
 
+  &--tmpl-2 {
+    min-height: 384px;
+  }
+
   &__title {
     font-family: var(--font-text-2);
     text-align: center;
@@ -108,5 +112,9 @@
   .form {
     min-height: 535px;
     padding: 65px 20px 50px;
+
+    &--tmpl-2 {
+      min-height: 284px;
+    }
   }
 }
