@@ -1,0 +1,101 @@
+.checking {
+  margin-bottom: 80px;
+  &__items-wrapper {
+    background-image: url(../img/cheking/bg.png);
+    background-position: bottom center;
+    background-size: cover;
+    background-color: rgb(24, 24, 24);
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    padding: 95px 20px;
+    margin-bottom: 60px;
+  }
+  &__items {
+    width: 100%;
+    max-width: 1544px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 100px;
+  }
+
+  &__item-title {
+    color: rgb(211, 74, 0);
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  &__item-text {
+    font-size: 27px;
+    line-height: 168%;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  &__btn {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1600px) {
+  .checking {
+    &__items-wrapper {
+      padding: 50px;
+    }
+    &__items {
+      grid-column-gap: 50px;
+      grid-row-gap: 50px;
+    }
+    &__item-title {
+      font-size: 37px;
+    }
+    &__item-text {
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 24px;
+      line-height: 120%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .checking {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .checking {
+    &__items-wrapper {
+      padding: 50px 20px;
+      border-radius: 30px;
+    }
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 30px;
+    }
+    &__item-title {
+      font-size: 32px;
+      br {
+        display: none;
+      }
+    }
+    &__item-text {
+      font-size: 16px;
+    }
+    &__text {
+      font-size: 20px;
+    }
+  }
+}

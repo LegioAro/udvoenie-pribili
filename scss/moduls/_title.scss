@@ -1,0 +1,25 @@
+.title {
+  width: 100%;
+  padding: 46px 20px;
+  background: rgb(211, 74, 0);
+  p {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #fff;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    p {
+      font-size: 24px;
+    }
+  }
+}
